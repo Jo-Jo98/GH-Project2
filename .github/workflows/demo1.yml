@@ -9,6 +9,8 @@ on:
       - master
       - 'dev-*' #dev-new or dev-this-is-new
       - 'feat/**' #feat/new or feat/button/new
+#   paths-ignore:
+#     - '.github/workflows/*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
